@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Space Turf - APOD</title>
+        <link rel="stylesheet" href="apod.css">
+    </head>
+    <body>
+        <h1>Space Turf</h1>
+
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="apod.html">APOD</a> |
+            <a href="neows.html">Asteroids NeoWs</a> |
+            <a href="donki.html">DONKI</a> |
+            <a href="earth.html">Earth</a> |
+            <a href="eonet.html">EONET</a> |
+            <a href="epic.html">EPIC</a> |
+            <a href="videos.html">Videos</a> |
+            <a href="search.html">Search</a>
+        </nav>
+
+        <h2>APOD (Astronomy Picture of the Day)</h2>
+
+        <form id="form">
+            <label for="date-input">Enter a date:</label>
+            <input type="date" id="date-input">
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="error-message"></div>
+
+        <h3 id="title"></h3>
+        <img id="image">
+        <p id="explanation"></p>
+
+        <script defer src="apod.js"></script>
+    </body>
+</html>
